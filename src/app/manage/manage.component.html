@@ -1,0 +1,31 @@
+<div class="body">
+<h1 class="heading">Manage Blog</h1>
+<div class="subheading" *ngIf="list.length==0">No Blog Added to Manage</div>
+
+<div class="container" *ngIf="list.length>0">
+  <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">S.No</th>
+          <th scope="col">Blog Title</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table" *ngFor="let item of list ?.reverse() ;let i=index; ">
+          <td>{{i+1}}</td>
+          <td>{{item.title}}
+<td>
+              <button class="button" (click)="editblog(list.length-i-1)">Edit</button>
+              <button class="button1" (click)="remove(list.length-i-1)">Delete</button>
+              <button class="button2" (click)="viewblog(list.length-i-1)">View</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+</div>
+
+
+
+

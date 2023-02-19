@@ -1,0 +1,15 @@
+<div class="body">
+<h1 class="heading">My Blogs</h1>
+<div class="head" *ngIf="list.length==0"> No Blog Yet ! </div>
+<div class="card-container" *ngFor="let item of list  ?.reverse(); let i=index" >
+<div class="card" (click)="viewblog(list.length-i-1)">
+<div class="content">
+    <h2 class="card-title">{{item.title}}</h2>
+    <p class="card-author">Author: {{item.author}}</p><hr>
+    <p>Description:</p>
+    <p class="card-description">{{item.description}}</p>
+  </div>
+</div>
+</div>
+
+

@@ -1,0 +1,106 @@
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+  letter-spacing: 2px;
+  font-style: italic;
+font-family: cursive;
+}
+.head{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 50px;
+
+  text-align: center;
+  padding-top: 60px;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+ .body{
+background-image: url('src\assets\5747802.jpg');
+height:93vh;
+overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:bisque;
+  transition: 0.3s;
+  align-items: center;
+  margin-left:70px;
+max-width: 350px;
+min-width: 100px;
+width: 350px;
+height: 390px;
+min-height:150px;
+max-height: 390px;
+margin-top: 40px;
+margin-right: 50px;
+margin-bottom: 40px;
+display: inline-block;
+padding: 10px 10px;
+    margin-top: 1rem;
+/* overflow-y: scroll;
+overflow-x:hidden; */
+overflow-y:scroll;
+overflow-x:hidden;
+text-align: center;
+border-radius: 20px;
+
+
+}
+.content{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.card:hover {
+    box-shadow: 1px 8px 40px 0 rgba(58, 80, 177, 0.2);
+
+}
+.card-container{
+display: inline-block;
+margin-top: 40px;
+
+}
+.card-author{
+text-align: left;
+font-size: 22px;
+}
+.card-description{
+text-align: left;
+/* overflow-y: scroll;
+overflow-x:hidden; */
+
+}
+
+.buttons{
+  background-color: #898d89;
+  color: white;
+  padding: 7px 7px;
+  border: none;
+  margin-left: 1.1rem;
+  border-radius: 4px;
+  float: 1.3rem;
+  margin-top: -1rem;
+  width: 80px;
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+}
+.buttons:hover{
+  background-color:#9b9f9a;
+}
+
+.card-title{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: -0.6rem;
+  font-size: 40px;
+}
+
+.card-desc{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
